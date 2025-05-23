@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Navbar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-900">
+  <nav class="flex items-center justify-between px-8 py-4 bg-blue-800 text-white">
+
+    <div class="flex items-center space-x-8">
+      <span class="text-lg font-bold">BrandName</span>
+      <ul class="flex space-x-6 text-sm font-semibold">
+        <li><a href="#" class="hover:underline">Home</a></li>
+        <li><a href="#" class="hover:underline">Product</a></li>
+        <li><a href="#" class="hover:underline">Pricing</a></li>
+        <li><a href="#" class="hover:underline">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="flex items-center space-x-4">
+      <a href="#" class="text-sm font-semibold hover:underline">Login</a>
+      <button class="bg-gray-300 text-gray-800 text-sm font-bold py-2 px-4 rounded hover:bg-gray-400 transition-all">
+        JOIN US →
+      </button>
+    </div>
+  </nav>
+</body>
+</html>
